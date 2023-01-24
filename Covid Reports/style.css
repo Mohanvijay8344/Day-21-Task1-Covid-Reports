@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("backgroud.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+color: black;
+
+}
+
+.heading{
+    text-align: center;
+    color:black;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 40px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: none;
+    color: black;
+}
+.card-heads1,.card-heads2,.card-heads3,.card-heads4,.card-heads5,.card-heads6{
+    font-size:40PX;
+    background-color:hwb(0 100% 0%);
+    color: orangered;
+    font-weight: bolder;
+}
+.card-bodys1,.card-bodys2,.card-bodys3,.card-bodys4,.card-bodys5,.card-bodys6{
+    font-size: 20px;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.card-footers1,.card-footers2,.card-footers3,.card-footers4,.card-footers5,.card-footers6{
+    background-color:hwb(308 8% 0%);
+    font-weight: bold;
+    font-size: smaller;
+}
